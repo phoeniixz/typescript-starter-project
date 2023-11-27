@@ -1,0 +1,22 @@
+{
+  "name": "typescript-starter-project",
+  "version": "1.0.0",
+  "description": "A starter project for typescript and webpack project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && copyfiles -f ./public/index.html ./dist/",
+    "serve": "webpack serve"
+  },
+  "keywords": [],
+  "author": "Subhisara Srimaharaja",
+  "license": "MIT",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
